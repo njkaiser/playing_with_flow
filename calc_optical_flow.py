@@ -1,9 +1,9 @@
 import cv2
 import numpy as np
 
-frame1 = cv2.imread('frame1.png')
-frame2 = cv2.imread('frame2.png')
-frame3 = cv2.imread('frame3.png')
+frame1 = cv2.imread('IMG_0050.JPG')
+frame2 = cv2.imread('IMG_0089.JPG')
+frame3 = cv2.imread('IMG_0131.JPG')
 gray1 = cv2.cvtColor(frame1, cv2.COLOR_BGR2GRAY)
 gray2 = cv2.cvtColor(frame2, cv2.COLOR_BGR2GRAY)
 gray3 = cv2.cvtColor(frame3, cv2.COLOR_BGR2GRAY)
